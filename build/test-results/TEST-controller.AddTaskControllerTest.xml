@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="controller.AddTaskControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-02-01T18:53:29" hostname="MW7IEVHWD8XC8H" time="25.267">
+  <properties/>
+  <testcase name="main" classname="controller.AddTaskControllerTest" time="25.267"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Feb 01, 2016 1:53:29 PM controller.AddTaskControllerTest testAddTask
+INFO: AddTask to Environment.........ACCMSPS_ACC_UAT
+Feb 01, 2016 1:53:29 PM controller.AddTaskControllerTest testAddTask
+INFO: Forming Add Task Request.........
+Feb 01, 2016 1:53:29 PM dao.AddTaskDAOImpl addTask
+INFO: Reading configuration file to connect to MSPS......
+Feb 01, 2016 1:53:29 PM dao.AddTaskDAOImpl addTask
+INFO: WSDL URL https://adtppmus2013integrationstg.accenture.com/ACN_MSPS-RTC_Integration/ACNMSPS_RTC_IntegrationService.svc
+Feb 01, 2016 1:53:29 PM dao.AddTaskDAOImpl addTask
+INFO: WSDL Username dir\adt-ppm-rtc-admin
+Feb 01, 2016 1:53:29 PM dao.AddTaskDAOImpl addTask
+INFO: WSDL Decoded Password tX5vA1wK*eO%oE6
+Feb 01, 2016 1:53:29 PM dao.AddTaskDAOImpl addTask
+INFO: ***********************Forming Add Task Request***********************
+Feb 01, 2016 1:53:29 PM dao.AddTaskDAOImpl addTask
+INFO: ApplicationName.........NA
+Feb 01, 2016 1:53:29 PM dao.AddTaskDAOImpl addTask
+INFO: AssignedTo.........robert.d.rygwalski
+Feb 01, 2016 1:53:29 PM dao.AddTaskDAOImpl addTask
+INFO: Summary.........TESTING ONESIE-TWOSIE
+Feb 01, 2016 1:53:29 PM dao.AddTaskDAOImpl addTask
+INFO: BusinessArea.........NA
+Feb 01, 2016 1:53:29 PM dao.AddTaskDAOImpl addTask
+INFO: ClientName.........Accenture
+Feb 01, 2016 1:53:29 PM dao.AddTaskDAOImpl addTask
+INFO: InstanceURL.........https://adtppmus01ws2013stg.accenture.com/AMT_UAT
+Feb 01, 2016 1:53:29 PM dao.AddTaskDAOImpl addTask
+INFO: MSPSServiceName.........ACNMSPS_RTC_IntegrationService
+Feb 01, 2016 1:53:29 PM dao.AddTaskDAOImpl addTask
+INFO: ProjectManager.........robert.d.rygwalski
+Feb 01, 2016 1:53:29 PM dao.AddTaskDAOImpl addTask
+INFO: EstimatedEffort.........1.0
+Feb 01, 2016 1:53:29 PM dao.AddTaskDAOImpl addTask
+INFO: EstimatedFinishDate.........01/27/2016
+Feb 01, 2016 1:53:29 PM dao.AddTaskDAOImpl addTask
+INFO: EstimatedStartDate.........01/27/2016
+Feb 01, 2016 1:53:29 PM dao.AddTaskDAOImpl addTask
+INFO: WorkRequestID.........INC700025953478
+Feb 01, 2016 1:53:29 PM dao.AddTaskDAOImpl addTask
+INFO: WorkRequestType.........0
+Feb 01, 2016 1:53:29 PM dao.AddTaskDAOImpl addTask
+INFO: WorkRequestURL.........https://itsm.accenture.com/arsys/forms/amrrm6100/SHR:LandingConsole/Default+Administrator+View/?mode=search&amp;F304255500=HPD:Help%20Desk%20Classic&amp;F1000000076=FormOpen&amp;F303647600=SearchTicketWithQual&amp;F304255610=%271000000161%27%3D%22INC700025959667%22
+Feb 01, 2016 1:53:29 PM dao.AddTaskDAOImpl addTask
+INFO: WorkPlanName.........Time by Ticket from ITSM
+Feb 01, 2016 1:53:29 PM dao.AddTaskDAOImpl addTask
+INFO: Auth String .........dir\adt-ppm-rtc-admin:tX5vA1wK*eO%oE6
+Feb 01, 2016 1:53:29 PM dao.AddTaskDAOImpl addTask
+INFO: Auth String Encoded.........ZGlyXGFkdC1wcG0tcnRjLWFkbWluOnRYNXZBMXdLKmVPJW9FNg==
+Feb 01, 2016 1:53:31 PM [com.sun.xml.internal.ws.policy.EffectiveAlternativeSelector]  selectAlternatives
+WARNING: WSP0075: Policy assertion "{http://schemas.microsoft.com/ws/06/2004/policy/http}BasicAuthentication" was evaluated as "UNKNOWN".
+Feb 01, 2016 1:53:31 PM [com.sun.xml.internal.ws.policy.EffectiveAlternativeSelector]  selectAlternatives
+WARNING: WSP0075: Policy assertion "{http://schemas.xmlsoap.org/ws/2005/07/securitypolicy}TransportBinding" was evaluated as "UNKNOWN".
+Feb 01, 2016 1:53:31 PM [com.sun.xml.internal.ws.policy.EffectiveAlternativeSelector]  selectAlternatives
+WARNING: WSP0075: Policy assertion "{http://www.w3.org/2006/05/addressing/wsdl}UsingAddressing" was evaluated as "UNKNOWN".
+Feb 01, 2016 1:53:31 PM [com.sun.xml.internal.ws.policy.EffectiveAlternativeSelector]  selectAlternatives
+WARNING: WSP0019: Suboptimal policy alternative selected on the client side with fitness "UNKNOWN".
+Feb 01, 2016 1:53:32 PM dao.AddTaskDAOImpl addTask
+INFO: Calling MSPS add task service......
+Feb 01, 2016 1:53:55 PM dao.AddTaskDAOImpl addTask
+INFO: Time taken for add task in s.......22
+Feb 01, 2016 1:53:55 PM dao.AddTaskDAOImpl addTask
+INFO: ***********************Getting Add Task Response***********************
+Feb 01, 2016 1:53:55 PM dao.AddTaskDAOImpl addTask
+INFO: StatusCode.........0
+Feb 01, 2016 1:53:55 PM dao.AddTaskDAOImpl addTask
+INFO: StatusMessage.........The following fields are not updated: 
+
+ACNT Priority (value not specified or invalid)
+
+Feb 01, 2016 1:53:55 PM dao.AddTaskDAOImpl addTask
+INFO: StatusCode.........Task created and published.
+Feb 01, 2016 1:53:55 PM dao.AddTaskDAOImpl addTask
+INFO: WorkPlanGUID.........83360594-da2e-e411-aab3-20689d5c80ea
+Feb 01, 2016 1:53:55 PM dao.AddTaskDAOImpl addTask
+INFO: WorkPlanURL.........https://adtppmus01ws2013stg.accenture.com/AMT_UAT/ProjectDrillDown.aspx?_projectUID=83360594-da2e-e411-aab3-20689d5c80ea
+Feb 01, 2016 1:53:55 PM dao.AddTaskDAOImpl addTask
+INFO: WorkPlanName.........Time by Ticket from ITSM
+Feb 01, 2016 1:53:55 PM dao.AddTaskDAOImpl addTask
+INFO: SummaryTaskName.........INC700025953478_IA_TESTING ONESIE_TWOSIE
+Feb 01, 2016 1:53:55 PM dao.AddTaskDAOImpl addTask
+INFO: SummaryTaskUID.........bb11e1f2-a22c-48e7-bb7c-5605b5b7672c
+]]></system-err>
+</testsuite>
